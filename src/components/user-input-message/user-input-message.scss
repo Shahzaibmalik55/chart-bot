@@ -1,0 +1,14 @@
+.user-input-message {
+  display: flex;
+  padding: 16px;
+  background-color: var(--blue-100);
+  border-radius: 4px;
+  margin: 10px 0px;
+  .image {
+    border-radius: 4px;
+  }
+  .input-text {
+    padding-left: 12px;
+    padding-top: 6px;
+  }
+}

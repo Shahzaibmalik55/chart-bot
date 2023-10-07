@@ -1,0 +1,20 @@
+.text-box-container {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--gray-300);
+  .text-box {
+    padding: 24px;
+    padding-top: 6px;
+    display: flex;
+    justify-content: center;
+  }
+  .p-inputtext {
+    @media (min-width: 768px) {
+      min-width: 500px;
+    }
+  }
+  .primary {
+    color: var(--primary-color);
+  }
+}

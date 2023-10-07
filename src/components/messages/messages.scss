@@ -1,0 +1,13 @@
+.messages-container {
+  .loading-text {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    .pi-spin {
+      margin-left: 10px;
+    }
+  }
+}
